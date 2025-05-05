@@ -13,6 +13,7 @@
   "type": "commonjs",
   "description": "",
   "devDependencies": {
+    "@types/amqplib": "^0.10.7",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
     "@types/express-winston": "^3.0.4",
@@ -24,11 +25,16 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "@prisma/client": "^6.6.0",
+    "@prisma/client": "^6.7.0",
+    "amqplib": "^0.10.7",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "express-winston": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "micromq": "^3.0.2",
     "redis": "^4.7.0",
     "winston": "^3.17.0"
   }
